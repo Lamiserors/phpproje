@@ -73,6 +73,5 @@ GitHub bağlantısı: Bu bağlantıya tıklandığında, kullanıcının bu sist
 
 
 
-# Lisans
-Bu proje MIT Lisansı ile lisanslanmıştır. Daha fazla bilgi için LICENSE dosyasına bakın.
+
 
