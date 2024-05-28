@@ -17,6 +17,15 @@ Hayvanları düzenlemek için istediğiniz işlemleri gerçekleştirin.
 
 # Gereksinimler 
 1-)XAMPP
+
+
 Bilgisayarımıza XAMPP'i kuruyoruz daha sonra apache ve mysql servislerini başlatıyoruz.
 Yazdığımız tüm kodları bir klasöre atıyoruz ve bu klasörü de XAMPP htdocs folder isimli dosyaya atıyoruz.
+
+2-)FileZilla
+
+Bilgisayarımıza filezillayı indirip kuruyoruz daha sonra çıkan üst bölümdeki bilgileri doğru bir şekilde doldurup bağlantı kuruyoruz. Bizden burada istenilen bilgiler web sitesi adresi alırken bize verilen bilgilerdir. Bağlandıktan sonra yazdığımız tüm kodları public html dosyasına aktarıyoruz.
+
+# Lisans
+Bu proje MIT Lisansı ile lisanslanmıştır. Daha fazla bilgi için LICENSE dosyasına bakın.
 
