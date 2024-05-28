@@ -13,3 +13,7 @@ xampp htdocs folder dosyasına tüm yazdığımız kodları atıyoruz.
 
 
 filezilladan sunucuya bağlanıyoruz , public html dosyasına kod dosyalarımızı atıyoruz.
+
+
+
+![Ekran Görüntüsü (1200)](https://github.com/Lamiserors/phpproje/assets/154334341/24048260-eb5e-454f-9b9e-1a2e8bc47b68)
