@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lamiser in Hayvanat Bahçesi</title>
+    <link rel="stylesheet" href="sekil.css">
+    <style>
+        body {
+            background-image: url('https://cdn.getyourguide.com/img/tour/5b923447375c3.jpeg/145.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        #edit-button {
+            background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+
+        #edit-button:hover {
+            background-color: #45a049;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 50%;
+            margin-top: 20px;
+            margin-left: auto; /* Tabloyu sağa kaydırma */
+            margin-right: auto;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+            font-weight: bold; /* Metni kalın yap */
+        }
+
+        .bold-text {
+            font-weight: bold; /* Metni kalın yap */
+        }
+        .text {
+    font-weight: bold;
+    color: white; /* Metin rengi beyaz */
+}
+
+
+        #welcome-section {
+            background-color: rgba(30, 163, 34, 0.3); /* Yeşil arka plan rengi */
+            padding: 10px; /* Kenar boşluğu */
+            border-radius: 20px; /* Kenar yumuşatma */
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hayvanat Bahçesi Sistemi</h1>
+    </header>
+
+    <main>
+        <section id="welcome-section">
+            <h2 class="text">Hoş Geldiniz!</h2>
+            <p class="text">Hayvanat bahçesi sistemine hoşgeldiniz. Burada birçok hayvan bulunmaktadır. Aşağıda hayvanat bahçesi mevcut hayvan sayısı ve doluluk oranı gösterilmektedir. Bu hayvanlar ile ilgili işlemler için aşağıdaki butona basınız.</p>
+        </section>
+
+        <button id="edit-button">Hayvanları Düzenle</button>
+
+        <table id="animal-table">
+            <tr>
+                <th>Mevcut Hayvan Sayısı</th>
+                <th>Doluluk Oranı</th>
+            </tr>
+            <tr>
+                <td id="animal-count" class="bold-text"></td>
+                <td id="fill-percentage" class="bold-text"></td>
+            </tr>
+        </table>
+    </main>
+
+   
+
+    <script>
+        document.getElementById("edit-button").addEventListener("click", function() {
+            window.location.href = "hayvanlarin_listesi.php";
+        });
+
+        
+        var xhr = new XMLHttpRequest();
+        xhr.onreadystatechange = function() {
+            if (xhr.readyState == 4 && xhr.status == 200) {
+                var response = JSON.parse(xhr.responseText);
+                document.getElementById("animal-count").innerHTML = response.animalCount;
+                document.getElementById("fill-percentage").innerHTML = response.fillPercentage;
+            }
+        };
+        xhr.open("GET", "doluluk.php", true);
+        xhr.send();
+    </script>
+</body>
+</html>
