@@ -36,11 +36,17 @@ Bilgisayarımızda phpmyadmin'i açıyoruz ve web sitesi adresi alırken gelen v
 
 # Veritabanına Bağlanma
 
+![Ekran görüntüsü 2024-05-28 225430](https://github.com/Lamiserors/phpproje/assets/154334341/0178ec41-fff3-4bd3-8101-55bf77ca27bf)
+
 
 Bu kod PHP dilinde yazılmıştır ve bir MySQL veritabanına bağlanmayı amaçlamaktadır.
+
 $servername: MySQL sunucusunun adresini belirtir. localhost genellikle sunucunun aynı makinede olduğunu ifade eder.
+
 $username: Veritabanına erişim sağlayacak kullanıcı adı.
+
 $password: Kullanıcının şifresi.
+
 $dbname: Bağlanılacak veritabanının adı.
 
 
