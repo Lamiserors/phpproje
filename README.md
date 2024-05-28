@@ -39,6 +39,14 @@ Bilgisayarımızda phpmyadmin'i açıyoruz ve web sitesi adresi alırken gelen v
 
 
 ![9fae41b5-b33d-499a-8fc4-c15e175b517c](https://github.com/Lamiserors/phpproje/assets/154334341/034bb096-a8a3-4a80-abf9-c6650309a3f1)
+
+Kayıt butonu: Bu butona tıklandığında, kullanıcının bilgileri veritabanına kaydedilir.
+
+Giriş butonu: Bu butona tıklandığında, kullanıcı sistemde oturum açar.
+
+GitHub bağlantısı: Bu bağlantıya tıklandığında, kullanıcının bu sistemin GitHub deposuna yönlendirilir.
+
+
 ![3b165857-d740-4307-bc38-e393717b9ec4](https://github.com/Lamiserors/phpproje/assets/154334341/7485a1a9-3e1c-4f13-beb2-673cdd98e0a2)
 
 
