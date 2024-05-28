@@ -34,6 +34,18 @@ Bilgisayarımıza filezillayı indirip kuruyoruz daha sonra çıkan üst bölüm
 Bilgisayarımızda phpmyadmin'i açıyoruz ve web sitesi adresi alırken gelen ve istenilen doğru bilgileri giriyoruz daha sonrasında veritabanımızı oluşturuyoruz.
 
 
+# Veritabanına Bağlanma
+
+
+Bu kod PHP dilinde yazılmıştır ve bir MySQL veritabanına bağlanmayı amaçlamaktadır.
+$servername: MySQL sunucusunun adresini belirtir. localhost genellikle sunucunun aynı makinede olduğunu ifade eder.
+$username: Veritabanına erişim sağlayacak kullanıcı adı.
+$password: Kullanıcının şifresi.
+$dbname: Bağlanılacak veritabanının adı.
+
+
+
+
 # Ekran Görüntüleri
 
 
