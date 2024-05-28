@@ -38,6 +38,13 @@ Bilgisayarımızda phpmyadmin'i açıyoruz ve web sitesi adresi alırken gelen v
 
 
 
+![9fae41b5-b33d-499a-8fc4-c15e175b517c](https://github.com/Lamiserors/phpproje/assets/154334341/034bb096-a8a3-4a80-abf9-c6650309a3f1)
+![3b165857-d740-4307-bc38-e393717b9ec4]
+(https://github.com/Lamiserors/phpproje/assets/154334341/cc5712a7-7c77-4965-81e9-aca732e2b7f1)
+
+
+
+
 
 
 
